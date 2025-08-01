@@ -3,6 +3,7 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import Button from "../components/Button.astro";
 import ImageCard from "../components/ImageCard.astro";
+import MultipleImagecard from "../components/MultipleImagecard.astro";
 ---
 
 <MainLayout title="About">
@@ -18,10 +19,12 @@ import ImageCard from "../components/ImageCard.astro";
 	<ImageCard link="https://upload.wikimedia.org/wikipedia/commons/2/26/YellowLabradorLooking_new.jpg" caption="Good boi" height="200"/>
 
 	<h3>Example Component</h3>
+
 	<p>This button uses the Button component with a custom text prop:</p>
 
 	<!-- Example of using a component -->
 	<Button text="I'm a Component!" />
+	<MultipleImagecard link
 
 	<p><small>Check out <code>src/components/Button.astro</code> to see how it works!</small></p>
 </Layout>
